@@ -1828,9 +1828,10 @@
 				text-align: center;
 			}
 
-				.wrapper.first {
-					padding-top: 12em;
-				}
+            .wrapper.first {
+				padding-top: 12em;
+                height: 100vh;
+			}
 
 		/* Nav */
 
