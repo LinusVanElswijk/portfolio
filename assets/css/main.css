@@ -1613,7 +1613,7 @@
 		}
 
         .wrapper.aboutMeStyle {
-            background-color: #43B3E0;
+            background-color: #fafafa;
         }
 
 		.wrapper.style2 {
@@ -2140,7 +2140,8 @@
     font-size: 600%;
 }
 
-#top .button {
+#top .button,
+#aboutMe .button {
     display: inline-block;
     background-image: none;
     background-color: #fafafa;
@@ -2154,11 +2155,13 @@
     box-shadow: none;
 }
 
-#top .button:hover {
+#top .button:hover,
+#aboutMe .button:hover {
     background-color: #e5e5e5;
 }
 
-#top .button:active {
+#top .button:active,
+#aboutMe .button:active{
     background-color: #C0D7EF;
     border-color: #150e0e;
     color: #150e0e !important;
