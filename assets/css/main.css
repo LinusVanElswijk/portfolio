@@ -1578,7 +1578,7 @@
 		}
 
 		.icon.featured {
-			color: #EA8A95;
+			color: #4f4f4f;
 			display: block;
 			margin: 0 0 1.5em 0;
 			cursor: default;
@@ -1857,7 +1857,6 @@
 
             .wrapper.first {
 				padding-top: 12em;
-                height: 100vh;
 			}
 
 		/* Nav */
@@ -2139,4 +2138,8 @@
 
 #top header h1 {
     font-size: 600%;
+}
+
+.wrapper.first {
+    min-height: 100vh;
 }
