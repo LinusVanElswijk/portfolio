@@ -1332,29 +1332,26 @@
 	input[type="reset"],
 	button,
 	.button {
-		background-image: url("images/bg.png"), -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-		background-image: url("images/bg.png"), -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-		background-image: url("images/bg.png"), -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-		background-image: url("images/bg.png"), linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-		-moz-transition: background-color .2s ease-in-out;
-		-webkit-transition: background-color .2s ease-in-out;
-		-ms-transition: background-color .2s ease-in-out;
-		transition: background-color .2s ease-in-out;
-		-webkit-appearance: none;
-		position: relative;
-		display: inline-block;
-		color: #fff !important;
-		text-decoration: none;
-		font-weight: 700;
-		border: 0;
-		outline: 0;
-		cursor: pointer;
-		border-radius: 8px;
-		text-shadow: -1px -1px 0.5px rgba(0, 0, 0, 0.5);
-		overflow: hidden;
-		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
-		background-color: #43B3E0;
-	}
+        display: inline-block;
+        background-image: none;
+        background-color: #fafafa;
+        border: solid 0.2em #3e3e3e;
+        border-radius: 1em;
+        color: #3e3e3e !important;
+        text-shadow: none;-moz-transition: background-color .2s ease-in-out;
+        -webkit-transition: background-color .2s ease-in-out;
+        -ms-transition: background-color .2s ease-in-out;
+        transition: background-color .2s ease-in-out;
+        -webkit-appearance: none;
+
+        text-decoration: none;
+        font-weight: 700;
+        outline: 0;
+
+        cursor: pointer;
+        overflow: hidden;
+        box-shadow: none;
+    }
 
 		input[type="button"]:hover,
 		input[type="submit"]:hover,
@@ -1362,7 +1359,7 @@
 		button:hover,
 		.button:hover {
 			background-color: #43bff0;
-			color: #fff !important;
+			color: #3e3e3e !important;
 		}
 
 		input[type="button"]:active,
@@ -2142,32 +2139,4 @@
 
 #top header h1 {
     font-size: 600%;
-}
-
-#top .button,
-#aboutMe .button {
-    display: inline-block;
-    background-image: none;
-    background-color: #fafafa;
-    border: solid 0.2em #3e3e3e;
-    border-radius: 1em;
-    color: #3e3e3e !important;
-    text-shadow: none;
-    transition: background-color 0.7s ease,
-        border-color 0.7s ease,
-        color 0.7s ease;
-    box-shadow: none;
-}
-
-#top .button:hover,
-#aboutMe .button:hover {
-    background-color: #e5e5e5;
-}
-
-#top .button:active,
-#aboutMe .button:active{
-    background-color: #C0D7EF;
-    border-color: #150e0e;
-    color: #150e0e !important;
-    transition: background-color 0.05s ease;
 }
