@@ -2143,3 +2143,16 @@
 .wrapper.first {
     min-height: 100vh;
 }
+
+.educationStyle ul.inline li {
+   display: inline;
+    white-space: nowrap;
+}
+
+.educationStyle ul.inline li:after {
+    content: " \2022 "
+}
+
+.educationStyle ul.inline li.last:after {
+    content: "";
+}
