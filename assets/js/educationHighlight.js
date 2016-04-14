@@ -3,14 +3,17 @@
  */
 
 function highlightCoursesOfType(typeName) {
-    $(".educationStyle ul.courseList li").each( function() {
+    function highlightType() {
         if( $(this).hasClass(typeName) ) {
             $(this).addClass("highlighted");
         }
         else {
             $(this).removeClass("highlighted");
         }
-    });
+    };
+
+    $(".educationStyle ul.courseList li").each(highlightType);
+    $(".educationStyle button.courseFilter").each(highlightType);
 }
 
 

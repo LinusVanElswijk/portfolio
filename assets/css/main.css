@@ -2155,10 +2155,10 @@
    font-weight: bold;
    color: #d0d0d0;
 
-   -moz-transition: color .3s ease-in-out;
-   -webkit-transition: color .3s ease-in-out;
-   -ms-transition: color .3s ease-in-out;
-   transition: color .3s ease-in-out;
+   -moz-transition: color .2s ease-in-out;
+   -webkit-transition: color .2s ease-in-out;
+   -ms-transition: color .2s ease-in-out;
+   transition: color .2s ease-in-out;
 }
 
 .educationStyle ul.courseList li:after {
@@ -2173,4 +2173,12 @@
 
 .educationStyle ul.courseList li.highlighted {
     color: #3e3e3e;
+}
+
+.educationStyle button.smallButton {
+    padding: 0.5em 1em 0.5em 1em;
+}
+
+.educationStyle button.smallButton.highlighted {
+    background-color: #43B3E0;
 }
