@@ -128,63 +128,59 @@
             <article id="education">
                 <header>
                     <h2>Relevant Coursework</h2>
-                    <p>A selection of the courses I finished as part of my education:</p>
-                    <button class="courseFilter smallButton gameTechnology" onclick="highlightCoursesOfType('gameTechnology')">Game Tech</button>
-                    <button class="courseFilter smallButton artificialIntelligence" onclick="highlightCoursesOfType('artificialIntelligence')">AI</button>
-                    <button class="courseFilter smallButton softwareDevelopment" onclick="highlightCoursesOfType('softwareDevelopment')">Software Development</button>
-                    <button class="courseFilter smallButton foundations" onclick="highlightCoursesOfType('foundations')">Foundations</button>
-                    <button class="courseFilter smallButton research" onclick="highlightCoursesOfType('research')">Research</button>
+                    <p>
+                        <span class="courseFilter smallButton gameTechnology highlighted" onclick="highlightCoursesOfType('gameTechnology')">Game Tech</span> &ndash;
+                        <span class="courseFilter smallButton artificialIntelligence" onclick="highlightCoursesOfType('artificialIntelligence')">AI</span> &ndash;
+                        <span class="courseFilter smallButton softwareDevelopment" onclick="highlightCoursesOfType('softwareDevelopment')">Software Development</span> &ndash;
+                        <span class="courseFilter smallButton foundations" onclick="highlightCoursesOfType('foundations')">Foundations</span> &ndash;
+                        <span class="courseFilter smallButton research" onclick="highlightCoursesOfType('research')">Research</span>
+                    </p>
                 </header>
                 <div class="container">
                     <ul class="courseList">
-                        <!-- BSc -->
-                        <li class="artificialIntelligence">Intro Artificial Intelligence</li>
-                        <li class="foundations">Languages &amp; Automata</li>
-                        <li class="foundations">Discrete Mathematics</li>
-                        <li class="foundations artificialIntelligence">Mathematics for AI</li>
-                        <li class="foundations">Mathematics 2 (Calculus &amp; Analysis)</li>
-                        <li class="foundations">Formal Proofs</li> <!-- beweren en bewijzen -->
-                        <li class="softwareDevelopment">Domain Modeling</li>
-                        <li class="softwareDevelopment">Programming</li>
-                        <li class="softwareDevelopment">Object Oriented Programming</li>
-                        <li class="research">Research &amp; Development</li>
-                        <li class="softwareDevelopment">Security</li>
-                        <li class="foundations">Information Systems</li>
-                        <li class="foundations">Computability</li>
-                        <li class="foundations">System Architecture 1: Processes &amp; Processors</li>
-                        <li class="foundations">System Architecture 2: Memory, Distribution &amp; Networks</li>
-                        <li class="softwareDevelopment">Functional Programming</li>
-                        <li class="research">Research &amp; Development Computing Science 2</li>
-                        <li class="softwareDevelopment">Algorithms &amp; Datastructures</li>
-                        <li class="artificialIntelligence">Data Mining</li>
-                        <li class="foundations">Semantics of Logic Programming</li>
                         <li class="research">Research Methods 1</li>
-                        <li class="foundations">Complexity</li>
-                        <li class="foundations">Semantics &amp; Correctness</li>
-                        <li class="softwareDevelopment">Software Engineering</li>
-                        <li class="foundations">Analysis of Algorithms</li>
-                        <li class="softwareDevelopment">Intro Cryptographic Algorithms &amp; Protocols</li>
-                        <!--- minor -->
-                        <li class="artificialIntelligence">Neural Network Models</li>
-                        <li class="artificialIntelligence">Intro Robotics</li>
-                        <li class="artificialIntelligence">Robotics 2</li>
-                        <li class="artificialIntelligence">Knowledge Representation &amp; Reasoning</li>
-                        <li class="artificialIntelligence">AI: Search, Planning &amp; Machine Learning</li>
-                        <!-- Vrije keuze -->
-                        <li class="gameTechnology">Intro Human Machine Interaction</li>
-                        <!-- Master Nijmegen -->
-                        <li class="artificialIntelligence">Bio-inspired Algorithms</li>
-                        <li class="softwareDevelopment">System Development</li>
-                        <li class="softwareDevelopment">System Development Management</li>
+                        <li class="gameTechnology highlighted">Game Production</li>
                         <li class="softwareDevelopment">Testing Techniques</li>
-                        <li class="gameTechnology research artificialIntelligence">Bachelor Thesis on Path planning</li>
-                        <!-- Master Utrecht -->
-                        <li class="gameTechnology">Advanced graphics</li>
-                        <li class="gameTechnology artificialIntelligence">Games &amp; agents</li>
-                        <li class="gameTechnology">Game Production</li>
-                        <li class="gameTechnology">Optimization &amp; Vectorization</li>
-                        <li class="gameTechnology artificialIntelligence">Pattern Recognition</li>
-                        <li class="last gameTechnology artificialIntelligence">Path planning</li>
+                        <li class="foundations">System Architecture 1: Processes &amp; Processors</li>
+                        <li class="artificialIntelligence">AI: Search, Planning &amp; Machine Learning</li>
+                        <li class="gameTechnology highlighted">Optimization &amp; Vectorization</li>
+                        <li class="research">Research &amp; Development Computing Science 2</li>
+                        <li class="last gameTechnology artificialIntelligence highlighted">Path Planning</li>
+                        <li class="softwareDevelopment">Intro Cryptographic Algorithms &amp; Protocols</li>
+                        <li class="artificialIntelligence">Bio-inspired Algorithms</li>
+                        <li class="softwareDevelopment">Functional Programming</li>
+                        <li class="foundations">Languages &amp; Automata</li>
+                        <li class="artificialIntelligence">Intro Artificial Intelligence</li>
+                        <li class="softwareDevelopment">Domain Modeling</li>
+                        <li class="gameTechnology artificialIntelligence highlighted">Pattern Recognition</li>
+                        <li class="foundations">Mathematics 2 (Calculus &amp; Analysis)</li>
+                        <li class="foundations">System Architecture 2: Memory, Distribution &amp; Networks</li>
+                        <li class="artificialIntelligence">Neural Network Models</li>
+                        <li class="softwareDevelopment">Software Engineering</li>
+                        <li class="gameTechnology artificialIntelligence highlighted">Games &amp; Agents</li>
+                        <li class="foundations">Information Systems</li>
+                        <li class="foundations">Formal Proofs</li> <!-- beweren en bewijzen -->
+                        <li class="artificialIntelligence">Data Mining</li>
+                        <li class="research">Research &amp; Development</li>
+                        <li class="foundations">Analysis of Algorithms</li>
+                        <li class="foundations artificialIntelligence">Mathematics for AI</li>
+                        <li class="softwareDevelopment">Programming</li>
+                        <li class="softwareDevelopment">Security</li>
+                        <li class="artificialIntelligence">Knowledge Representation &amp; Reasoning</li>
+                        <li class="artificialIntelligence">Intro Robotics</li>
+                        <li class="gameTechnology highlighted">Advanced Graphics</li>
+                        <li class="softwareDevelopment">System Development</li>
+                        <li class="gameTechnology research artificialIntelligence highlighted">Bachelor Thesis on Path Planning</li>
+                        <li class="foundations">Semantics &amp; Correctness</li>
+                        <li class="softwareDevelopment">System Development Management</li>
+                        <li class="foundations">Computability</li>
+                        <li class="foundations">Discrete Mathematics</li>
+                        <li class="softwareDevelopment">Object Oriented Programming</li>
+                        <li class="artificialIntelligence">Robotics 2</li>
+                        <li class="foundations">Semantics of Logic Programming</li>
+                        <li class="gameTechnology highlighted">Intro Human Machine Interaction</li>
+                        <li class="softwareDevelopment">Algorithms &amp; Datastructures</li>
+                        <li class="foundations">Complexity</li>
                     </ul>
                 </div>
                 <footer>

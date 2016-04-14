@@ -2175,10 +2175,24 @@
     color: #3e3e3e;
 }
 
-.educationStyle button.smallButton {
-    padding: 0.5em 1em 0.5em 1em;
+.educationStyle .courseFilter {
+    cursor: pointer;
+    text-decoration: underline;
+    display: inline;
+
+    color: #909090;
+
+    -moz-transition: color .2s ease-in-out;
+    -webkit-transition: color .2s ease-in-out;
+    -ms-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
 }
 
-.educationStyle button.smallButton.highlighted {
-    background-color: #43B3E0;
+.educationStyle .courseFilter:hover {
+    color: #5f5f5f;
+ }
+
+
+.educationStyle .courseFilter.highlighted {
+    color: #3e3e3e;
 }

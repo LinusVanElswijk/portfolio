@@ -13,7 +13,7 @@ function highlightCoursesOfType(typeName) {
     };
 
     $(".educationStyle ul.courseList li").each(highlightType);
-    $(".educationStyle button.courseFilter").each(highlightType);
+    $(".educationStyle .courseFilter").each(highlightType);
 }
 
 
