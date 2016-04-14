@@ -1578,7 +1578,7 @@
 		}
 
 		.icon.featured {
-			color: #4f4f4f;
+			color: #5c5c5c;
 			display: block;
 			margin: 0 0 1.5em 0;
 			cursor: default;
@@ -2142,4 +2142,57 @@
 
 .wrapper.first {
     min-height: 100vh;
+}
+
+.educationStyle ul.courseList {
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+}
+
+.educationStyle ul.courseList li {
+   display: inline;
+   white-space: nowrap;
+   font-weight: bold;
+   color: #d0d0d0;
+
+   -moz-transition: color .2s ease-in-out;
+   -webkit-transition: color .2s ease-in-out;
+   -ms-transition: color .2s ease-in-out;
+   transition: color .2s ease-in-out;
+}
+
+.educationStyle ul.courseList li:after {
+    content: " \2022 ";
+    color: #d0d0d0;
+    font-weight: normal;
+}
+
+.educationStyle ul.courseList li.last:after {
+    content: "";
+}
+
+.educationStyle ul.courseList li.highlighted {
+    color: #3e3e3e;
+}
+
+.educationStyle .courseFilter {
+    cursor: pointer;
+    text-decoration: underline;
+    display: inline;
+
+    color: #909090;
+
+    -moz-transition: color .2s ease-in-out;
+    -webkit-transition: color .2s ease-in-out;
+    -ms-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
+}
+
+.educationStyle .courseFilter:hover {
+    color: #5f5f5f;
+ }
+
+
+.educationStyle .courseFilter.highlighted {
+    color: #3e3e3e;
 }
