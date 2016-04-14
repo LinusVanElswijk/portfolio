@@ -2196,3 +2196,8 @@
 .educationStyle .courseFilter.highlighted {
     color: #3e3e3e;
 }
+
+.projectsStyle .image.featured img {
+    height: 15em;
+    clip: auto;
+}
