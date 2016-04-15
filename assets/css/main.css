@@ -1627,28 +1627,30 @@
 			text-shadow: 1px 1px 0px #fff;
 		}
 
-		.wrapper.style4 {
+		.wrapper.contactStyle {
 			background-color: #303030;
 			color: #999;
 			text-shadow: -1px -1px 0px #181818;
 		}
 
-			.wrapper.style4 h1, .wrapper.style4 h2, .wrapper.style4 h3, .wrapper.style4 h4, .wrapper.style4 h5, .wrapper.style4 h6 {
+			.wrapper.contactStyle h1, .wrapper.contactStyle h2, .wrapper.contactStyle h3, .wrapper.contactStyle h4, .wrapper.contactStyle h5, .wrapper.contactStyle h6 {
 				color: #fff;
 			}
 
-			.wrapper.style4 form input[type=text],
-			.wrapper.style4 form input[type=password],
-			.wrapper.style4 form select,
-			.wrapper.style4 form textarea {
+			.wrapper.contactStyle form input[type=text],
+            .wrapper.contactStyle form input[type=email],
+			.wrapper.contactStyle form input[type=password],
+			.wrapper.contactStyle form select,
+			.wrapper.contactStyle form textarea {
 				border: none;
 				background: #282828;
 			}
 
-				.wrapper.style4 form input[type=text]:focus,
-				.wrapper.style4 form input[type=password]:focus,
-				.wrapper.style4 form select:focus,
-				.wrapper.style4 form textarea:focus {
+				.wrapper.contactStyle form input[type=text]:focus,
+                .wrapper.contactStyle form input[type=email]:focus,
+				.wrapper.contactStyle form input[type=password]:focus,
+				.wrapper.contactStyle form select:focus,
+				.wrapper.contactStyle form textarea:focus {
 					background: #252525;
 				}
 
@@ -1960,7 +1962,7 @@
 					padding-top: 9em;
 				}
 
-				.wrapper.style4 .row-special {
+				.wrapper.contactStyle .row-special {
 					margin: 2em 0 0 0;
 					padding: 2em 0 2em 0;
 				}
@@ -2200,4 +2202,8 @@
 .projectsStyle .image.featured img {
     height: 15em;
     clip: auto;
+}
+
+div .PRqF4wwBs7 {
+    display: none;
 }
