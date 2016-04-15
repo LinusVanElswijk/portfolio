@@ -4,6 +4,7 @@
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
+<?php include 'assets/php/contactForm.php';?>
 <html>
 	<head>
 		<title>Portfolio of Linus van Elswijk</title>
@@ -13,7 +14,6 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-        <script src="assets/js/educationHighlight.js"></script>
 	</head>
 	<body>
 
@@ -257,40 +257,44 @@
 			</div>
 
 		<!-- Contact DISABLED -->
-			<div class="wrapper style4" hidden>
+			<div class="wrapper contactStyle">
 				<article id="contact" class="container 75%">
 					<header>
-						<h2>Have me make stuff for you.</h2>
-						<p>Ornare nulla proin odio consequat sapien vestibulum ipsum sed lorem.</p>
+						<h2>Contact</h2>
+						<p id="contactFormMessages"></p>
 					</header>
 					<div>
 						<div class="row">
 							<div class="12u">
-								<form method="post" action="#">
+								<form id="contactForm" method="post" action="assets/php/contactFormHandler.php" onload="prep">
 									<div>
 										<div class="row">
 											<div class="6u 12u(mobile)">
-												<input type="text" name="name" id="name" placeholder="Name" />
+												<input type="text" name="name" id="name" placeholder="Name" required/>
 											</div>
+                                            <div class="6u 12u(mobile) PRqF4wwBs7">
+                                                If you see this, leave this field empty and upgrade your browser after completing this.
+                                                <input type="text" name="surname" id="surname"/>
+                                            </div>
 											<div class="6u 12u(mobile)">
-												<input type="text" name="email" id="email" placeholder="Email" />
+												<input type="email" name="email" id="email" placeholder="Email" required/>
 											</div>
 										</div>
 										<div class="row">
 											<div class="12u">
-												<input type="text" name="subject" id="subject" placeholder="Subject" />
+												<input type="text" name="subject" id="subject" placeholder="Subject" required/>
 											</div>
 										</div>
 										<div class="row">
 											<div class="12u">
-												<textarea name="message" id="message" placeholder="Message"></textarea>
+												<textarea name="message" id="message" placeholder="Message" required></textarea>
 											</div>
 										</div>
 										<div class="row 200%">
 											<div class="12u">
 												<ul class="actions">
 													<li><input type="submit" value="Send Message" /></li>
-													<li><input type="reset" value="Clear Form" class="alt" /></li>
+													<!--<li><input type="reset" value="Clear Form" class="alt" /></li>-->
 												</ul>
 											</div>
 										</div>
@@ -343,6 +347,9 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+
+            <script src="assets/js/educationHighlight.js"></script>
+            <script src="assets/js/contactForm.js"></script>
 
 	</body>
 </html>
