@@ -5,8 +5,6 @@
 $(function() {
     var form = $('#contactForm');
     var formMessages = $('#contactFormMessage');
-    var clear = $('#contactForm button.reset');
-
 
     $(form).submit(function(event) {
         event.preventDefault();
