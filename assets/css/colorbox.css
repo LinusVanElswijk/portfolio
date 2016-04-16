@@ -33,11 +33,13 @@
 
         #cboxPrevious, #cboxNext, #cboxSlideshow { display: none; }
         #cboxClose{
-            position:absolute;
-            bottom:1em;
-            right:1em;
-            display:block;
-            padding: 0.25em;
-            border-radius: 0.7em;
-            border-width: 0.2em;
-        }
+             position:absolute;
+             bottom:1em;
+             right:1em;
+             display:block;
+             padding: 0.25em;
+             border-radius: 0.7em;
+             border-width: 0.2em;
+         }
+
+        #cboxClose:active{ height: auto; top: auto; }
