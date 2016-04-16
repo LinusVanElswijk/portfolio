@@ -2205,6 +2205,41 @@
     clip: auto;
 }
 
+/* This div is used to trap spambots */
 div .PRqF4wwBs7 {
     display: none;
+}
+
+#overlayContentContainer {
+    position: fixed;
+
+    margin: 10vh 5vh 10vh 5vh;
+    min-width: 20em;
+    min-height: 10em;
+
+    padding: 2.5em 1.5em 2.5em 1.5em;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 21000; /* in front of everything */
+
+    background-color: #eaeaea;
+    border-radius: 2em;
+}
+
+#overlayBackground {
+    position: fixed;
+
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    background-color: #030303;
+    opacity: 0.90;
+    z-index: 20000; /* in front of everything but overlayContent */
 }
