@@ -1664,7 +1664,7 @@
 		left: 0;
 		top: 0;
 		width: 100%;
-		z-index: 10000;
+		z-index: 100;
 		cursor: default;
 	}
 
@@ -2210,6 +2210,12 @@ div .PRqF4wwBs7 {
     display: none;
 }
 
+/* Colorbox css */
 .projectDescription {
     display: none;
+}
+
+#colorbox article {
+    margin: 1em 2em 1em 2em;
+    text-align: center;
 }
