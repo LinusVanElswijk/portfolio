@@ -1205,6 +1205,7 @@
 
 		form input[type=text]:focus,
 		form input[type=email]:focus,
+        form input:-webkit-autofill:focus,
 		form input[type=password]:focus,
 		form select:focus,
 		form textarea:focus {
@@ -2217,5 +2218,36 @@ div .PRqF4wwBs7 {
 
 #colorbox article {
     margin: 1em 2em 1em 2em;
-    text-align: center;
+    text-align: left;
+}
+
+#colorbox.featured {
+    clear: both;
+    margin-bottom: 1em;
+    display: inline-block;
+    left: auto;
+    right: auto;
+}
+
+#colorbox section {
+     clear: both;
+     margin-bottom: 1em;
+     display: block;
+     left: auto;
+     right: auto;
+     max-width: 90vh;
+ }
+
+#colorbox article h1,
+#colorbox article h2,
+#colorbox article h3,
+#colorbox article h4,
+#colorbox article h5 {
+    margin-top: 0.75em;
+    margin-bottom: 0;
+    padding: 0;
+ }
+
+#colorbox img {
+    max-width: 80%;
 }

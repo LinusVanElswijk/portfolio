@@ -206,45 +206,84 @@
 								<article class="box educationStyle">
 									<a href="#terasologyFull" title="Terasology" class="htmlColorbox image featured"><img src="images/terasology/placeholder.png" alt="" /></a>
 									<h3><a href="#terasologyFull" title="Terasology" class="htmlColorbox">Terasology</a></h3>
-									<p>An open source voxel game(-engine).</p>
+									<p>An open source voxel game.</p>
 								</article>
                                 <div class="projectDescription">
                                     <article id="terasologyFull">
-                                        <p>Terasology is an open source voxel game and game engine, written in Java.</p>
-                                        <p>I have worked on several projects within this engine.</p>
+                                        <iframe class="featured" width="560" height="315" src="https://www.youtube.com/embed/N2UD-5pgw_Y" frameborder="0" allowfullscreen></iframe>
+                                        <section>
+                                            <p>
+                                                Terasology is an open source voxel game and game engine, written in Java.
+                                                Below a list of projects I have worked on within this engine.
+                                            </p>
 
-                                        <h4>Seasons Plugin</h4>
-                                        <p>Terasology is an open source voxel game and game engine, written in Java.</p>
-                                        <h4>Weather Plugin</h4>
-                                        <h4>Markov-Chains Plugin</h4>
-                                        <h4>Water Simulation Project</h4>
-                                        <h4>Particle Simulation Project</h4>
+                                            <h4>Water Simulation</h4>
+                                            <p>
+                                                A water physics simulation based on cellular automata.
+                                                The video above shows this simulation.
+                                            </p>
+
+
+                                            <h4>Particle Simulation</h4>
+                                            <p>
+                                                A general particle system.
+                                            </p>
+
+                                            <h4>Seasons Module</h4>
+                                            <p>
+                                                A small library module that can tell the season (spring, winter, summer, fall) for the current or any other day in the game.
+                                                It throws events on season changes, that other modules can listen for and react upon.
+                                            </p>
+
+                                            <h4>Weather Module</h4>
+                                            <p>
+                                                I added a module for generating weather.
+                                                The generation is based on Markov Chains.
+                                            </p>
+                                        </section>
                                     </article>
                                 </div>
 							</div>
 							<div class="4u 12u(mobile)">
 								<article class="box educationStyle">
-									<a href="#destinationSolFull" class="htmlColorbox image featured"><img src="images/destination-sol/placeholder.png" alt="" /></a>
-									<h3><a href="#destinationSolFull" class="htmlColorbox">Destination Sol</a></h3>
+									<a href="#destinationSolFull" title="Destination Sol" class="htmlColorbox image featured"><img src="images/destination-sol/placeholder.png" alt="" /></a>
+									<h3><a href="#destinationSolFull" title="Destination Sol" class="htmlColorbox">Destination Sol</a></h3>
                                     <p>Arcade shmup with an open world.</p>
 								</article>
                                 <div class="projectDescription">
                                     <article id="destinationSolFull">
-                                        <h3>Destination Sol</h3>
-                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/lnGvyRHqf8w" frameborder="0" allowfullscreen></iframe>
+                                        <iframe class="featured" width="560" height="315" src="https://www.youtube.com/embed/lnGvyRHqf8w" frameborder="0" allowfullscreen></iframe>
+                                        <section>
+                                            <p>
+                                                Destination Sol is an arcade style space shooter, similar to Asteroids.
+                                                It features a large open world and an item based progression system.
+                                                I helped clean up the code, by refactoring the ship hull definition file structure.
+                                            </p>
+                                        </section>
                                     </article>
                                 </div>
 							</div>
 							<div class="4u 12u(mobile)">
 								<article class="box educationStyle">
-									<a href="#pathFindingFull" class="htmlColorbox image featured"><img src="images/bachelor-thesis/hpt" alt="" /></a>
-									<h3><a href="#pathFindingFull" class="htmlColorbox">Hierarchical Path-Finding Theta*</a></h3>
+									<a href="#pathFindingFull" title="Hierarchical Path-Finding Theta*" class="htmlColorbox image featured"><img src="images/bachelor-thesis/hpt" alt="" /></a>
+									<h3><a href="#pathFindingFull" title="Hierarchical Path-Finding Theta*" class="htmlColorbox">Hierarchical Path-Finding Theta*</a></h3>
 									<p>Any-angle pathfinding algorithm for large maps.</p>
 								</article>
                                 <div class="projectDescription">
                                     <article id="pathFindingFull">
-                                        <h3><a href="#">Hierarchical Path-Finding Theta*</a></h3>
-                                        <p>Any-angle pathfinding algorithm for large maps.</p>
+                                        <section>
+                                            <a class="icon featured fa fa-file-pdf-o" href="http://www.cs.ru.nl/bachelorscripties/2013/Linus_van_Elswijk___0710261___Hierarchical_Path-Finding_Theta_star_Combining_HPA_star_and_Theta_star.pdf"></a>
+                                            <p>
+                                                For my bachelor thesis, I created a novel pathfinding algorithm.
+                                                It combines two existing algorithms:
+                                                <ul>
+                                                    <li>Theta*, which produces near optimal any-angle paths</li>
+                                                    <li>Hierarchical Path-Finding A*, a fast algorithm for large maps</li>
+                                                </ul>
+                                                The result is an algorithm that has the speed of Hierarchical Path-Finding A*,
+                                                while still producing near optimal any-angle paths.
+                                            </p>
+                                        </section>
                                     </article>
                                 </div>
 							</div>
@@ -252,14 +291,23 @@
 						<div class="row">
 							<div class="4u 12u(mobile)">
 								<article class="box educationStyle">
-									<a href="#raytracerFull" class="htmlColorbox image featured"><img src="images/raytracer/suzanne.bmp" alt="" /></a>
-									<h3><a href="#raytracerFull" class="htmlColorbox">Path Tracer</a></h3>
+									<a href="#raytracerFull" title="Path Tracer" class="htmlColorbox image featured"><img src="images/raytracer/suzanne.bmp" alt="" /></a>
+									<h3><a href="#raytracerFull" title="Path Tracer" class="htmlColorbox">Path Tracer</a></h3>
 									<p>Rendering 3D scenes with realistic lighting.</p>
 								</article>
                                 <div class="projectDescription">
                                     <article id="raytracerFull">
-                                        <h3><a href="#">Hierarchical Path-Finding Theta*</a></h3>
-                                        <p>Any-angle pathfinding algorithm for large maps.</p>
+                                        <section>
+                                            <img class="featured" src="images/raytracer/bunny.bmp"></img>
+                                            <p>
+                                                For the Advanced Graphics course of my master program, I have implemented a Path Tracer together with two other students.
+                                            </p>
+                                            <h4>Optimization</h4>
+                                            <p>
+                                                For the Optimization and Vectorization course, I revisited the project together with an other student.
+                                                We were able to speed the path-tracer up by orders of magnitude, allowing it to render complex objects.
+                                            </p>
+                                        </section>
                                     </article>
                                 </div>
 							</div>
@@ -271,32 +319,31 @@
 								</article>
                                 <div class="projectDescription">
                                     <article id="motionExperimentsFull">
-                                        <h3><a href="#">Hierarchical Path-Finding Theta*</a></h3>
-                                        <p>Any-angle pathfinding algorithm for large maps.</p>
+                                        <section>
+                                            As part of a team of students, I have done experiments on agent motion.
+                                            My contribution to the project was the implementation of the pathfinding algorithm and
+                                            the a behavior that allow dynamic groups of agents to assume and maintain a wedge, grid or line formation.
+                                        </section>
                                     </article>
                                 </div>
 							</div>
 							<div class="4u 12u(mobile)">
 								<article class="box educationStyle">
-									<a href="#worldGenFull" class="htmlColorbox image featured"><img src="images/world-gen/worldGen" alt="" /></a>
-									<h3><a a href="#worldGenFull" class="htmlColorbox">Adventure World Generator</a></h3>
+									<a href="#worldGenFull" title="Adventure World Generator" class="htmlColorbox image featured"><img src="images/world-gen/worldGen" alt="" /></a>
+									<h3><a a href="#worldGenFull" title="Adventure World Generator" class="htmlColorbox">Adventure World Generator</a></h3>
 									<p>Procedural generation of region boundaries for an adventure game.</p>
 								</article>
                                 <div class="projectDescription">
                                     <article id="worldGenFull">
-                                        <h3><a href="#">Hierarchical Path-Finding Theta*</a></h3>
-                                        <p>Any-angle pathfinding algorithm for large maps.</p>
+                                        <section>
+                                            For an adventure game I was working on, I have implemented a world generator, that
+                                            can divide a 2D rectangular map into any number of regions.
+                                        </section>
                                     </article>
                                 </div>
 							</div>
 						</div>
 					</div>
-					<!--
-					<footer>
-						<p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
-						<a href="#contact" class="button big scrolly">Get in touch with me</a>
-					</footer>
-					-->
 				</article>
 			</div>
 
