@@ -2250,3 +2250,7 @@ div .PRqF4wwBs7 {
 #colorbox img {
     max-width: 80%;
 }
+
+#nav a.highlighted {
+    color: #ebc951 !important;
+}
