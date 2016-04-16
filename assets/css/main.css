@@ -2205,6 +2205,11 @@
     clip: auto;
 }
 
+/* This div is used to trap spambots */
 div .PRqF4wwBs7 {
+    display: none;
+}
+
+.projectDescription {
     display: none;
 }
