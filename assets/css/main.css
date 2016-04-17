@@ -1218,23 +1218,23 @@
 	}
 
 	form .formerize-placeholder {
-		color: #555 !important;
+		color: #636471 !important;
 	}
 
 	form ::-webkit-input-placeholder {
-		color: #555 !important;
+		color: #636471 !important;
 	}
 
 	form :-moz-placeholder {
-		color: #555 !important;
+		color: #636471 !important;
 	}
 
 	form ::-moz-placeholder {
-		color: #555 !important;
+		color: #636471 !important;
 	}
 
 	form :-ms-input-placeholder {
-		color: #555 !important;
+		color: #636471 !important;
 	}
 
 	form ::-moz-focus-inner {
@@ -1592,7 +1592,6 @@
 /* Wrappers */
 
 	.wrapper {
-		background-image: url("images/bg.png");
 		box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 	}
     /*
@@ -2140,7 +2139,7 @@
 }
 
 #top header h1 {
-    font-size: 600%;
+    /*font-size: 600%;*/
 }
 
 .wrapper.first {
@@ -2176,6 +2175,23 @@
 
 .educationStyle ul.courseList li.highlighted {
     color: #3e3e3e;
+}
+
+/* for small screens */
+@media screen and (max-width: 737px) {
+    /* be more lenient about line breaks */
+    .educationStyle ul.courseList li.long {
+        white-space: normal;
+    }
+
+    .educationStyle ul.courseList li {
+        display: none;
+    }
+
+    .educationStyle ul.courseList li.highlighted {
+        display: block;
+        clear: both;
+    }
 }
 
 .educationStyle .courseFilter {
