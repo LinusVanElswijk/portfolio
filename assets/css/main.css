@@ -2270,3 +2270,7 @@ div .PRqF4wwBs7 {
 #nav a.highlighted {
     color: #ebc951 !important;
 }
+
+input[type="reset"] {
+    color: #888888 !important;
+}
