@@ -3,5 +3,5 @@
  */
 
 $(document).ready(function(){
-    $(".htmlColorbox").colorbox({inline:true, width:"75%", height: "75%", transition:"fade"});
+    $(".htmlColorbox").colorbox({inline:true, transition:"fade"});
 });

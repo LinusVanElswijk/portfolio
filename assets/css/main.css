@@ -1205,6 +1205,7 @@
 
 		form input[type=text]:focus,
 		form input[type=email]:focus,
+        form input:-webkit-autofill:focus,
 		form input[type=password]:focus,
 		form select:focus,
 		form textarea:focus {
@@ -1217,23 +1218,23 @@
 	}
 
 	form .formerize-placeholder {
-		color: #555 !important;
+		color: #636471 !important;
 	}
 
 	form ::-webkit-input-placeholder {
-		color: #555 !important;
+		color: #636471 !important;
 	}
 
 	form :-moz-placeholder {
-		color: #555 !important;
+		color: #636471 !important;
 	}
 
 	form ::-moz-placeholder {
-		color: #555 !important;
+		color: #636471 !important;
 	}
 
 	form :-ms-input-placeholder {
-		color: #555 !important;
+		color: #636471 !important;
 	}
 
 	form ::-moz-focus-inner {
@@ -1591,7 +1592,6 @@
 /* Wrappers */
 
 	.wrapper {
-		background-image: url("images/bg.png");
 		box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 	}
     /*
@@ -1610,7 +1610,7 @@
 			background-color: #fff;
 		}
 
-        .wrapper.aboutMeStyle {
+        .wrapper.codeExamplesStyle {
             background-color: #fafafa;
         }
 
@@ -1664,7 +1664,7 @@
 		left: 0;
 		top: 0;
 		width: 100%;
-		z-index: 10000;
+		z-index: 100;
 		cursor: default;
 	}
 
@@ -1709,7 +1709,6 @@
         right: 0;
         height: 100vh;
         background-color: #303030;
-        background-image: url(https://images.unsplash.com/photo-1414115880398-afebc3d95efc?crop=entropy&fit=crop&fm=jpg&h=900&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1300);
         z-index: -1;
     }
 
@@ -2140,7 +2139,7 @@
 }
 
 #top header h1 {
-    font-size: 600%;
+    /*font-size: 600%;*/
 }
 
 .wrapper.first {
@@ -2178,6 +2177,23 @@
     color: #3e3e3e;
 }
 
+/* for small screens */
+@media screen and (max-width: 737px) {
+    /* be more lenient about line breaks */
+    .educationStyle ul.courseList li.long {
+        white-space: normal;
+    }
+
+    .educationStyle ul.courseList li {
+        display: none;
+    }
+
+    .educationStyle ul.courseList li.highlighted {
+        display: block;
+        clear: both;
+    }
+}
+
 .educationStyle .courseFilter {
     cursor: pointer;
     text-decoration: underline;
@@ -2205,11 +2221,65 @@
     clip: auto;
 }
 
+.projectsStyle footer {
+    margin: 0em;
+    font-weight: bold;
+}
+
 /* This div is used to trap spambots */
 div .PRqF4wwBs7 {
     display: none;
 }
 
+/* Colorbox css */
 .projectDescription {
     display: none;
+}
+
+#colorbox article {
+    margin: 1em 2em 1em 2em;
+    text-align: left;
+}
+
+#colorbox.featured {
+    clear: both;
+    margin-bottom: 1em;
+    display: inline-block;
+    left: auto;
+    right: auto;
+}
+
+#colorbox section {
+     clear: both;
+     margin-bottom: 1em;
+     display: block;
+     left: auto;
+     right: auto;
+     max-width: 90vh;
+ }
+
+#colorbox article h1,
+#colorbox article h2,
+#colorbox article h3,
+#colorbox article h4,
+#colorbox article h5 {
+    margin-top: 0.75em;
+    margin-bottom: 0;
+    padding: 0;
+ }
+
+#colorbox img {
+    max-width: 80%;
+}
+
+#nav a.highlighted {
+    color: #ebc951 !important;
+}
+
+.AO1NeBeNgk {
+    color: #ebc951 !important;
+}
+
+input[type="reset"] {
+    color: #888888 !important;
 }
