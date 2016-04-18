@@ -2191,6 +2191,7 @@
     .educationStyle ul.courseList li.highlighted {
         display: block;
         clear: both;
+        font-size: 80%;
     }
 }
 
