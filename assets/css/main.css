@@ -2214,6 +2214,7 @@
 
 .educationStyle .courseFilter.highlighted {
     color: #3e3e3e;
+    font-weight: bold;
 }
 
 .projectsStyle .image.featured img {
