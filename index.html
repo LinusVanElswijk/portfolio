@@ -39,8 +39,7 @@
                     <header>
                         <h1>Hi.</h1>
                         <h1>I am <strong>Linus van Elswijk</strong>.</h1>
-                        <p>Computer science student specialized in AI and Game/Media Technology.</p>
-                        <p>Available for an internship, starting Q3/Q4 2016.</p>
+                        <p>Computer science student specialized in Game/Media Technology and AI.</p>
                     </header>
                     <footer>
                         <a href="#skills" class="button big scrolly">See my portfolio</a>
@@ -95,8 +94,8 @@
                             <section class="box topStyle">
                                 <span class="icon featured fa-gears"></span>
                                 <h3>Software</h3>
-                                Git, Visual Studio, Eclipse, Netbeans, IntelliJ IDEs,
-                                Unity, Unigine.
+                                Git, JetBrains IDEs, Visual Studio, Eclipse, Netbeans,
+                                Blender, GIMP, Unity, Unigine.
                             </section>
                         </div>
                     </div>
@@ -179,6 +178,54 @@
 					</header>
 					<div class="container">
 						<div class="row">
+                            <div class="4u 12u(mobile)">
+                                <article class="box educationStyle">
+                                    <a href="#raytracerFull" title="Path Tracer" class="htmlColorbox image featured"><img src="images/raytracer/suzanne.bmp" alt="" /></a>
+                                    <h3><a href="#raytracerFull" title="Path Tracer" class="htmlColorbox">Path Tracer</a></h3>
+                                    <p>Rendering 3D scenes with realistic lighting.</p>
+                                    <footer>C++</footer>
+                                </article>
+                                <div class="projectDescription">
+                                    <article id="raytracerFull">
+                                        <section>
+                                            <img class="featured" src="images/raytracer/bunny.bmp"></img>
+                                            <p>
+                                                For the Advanced Graphics course of my master program, I have implemented a Path Tracer together with two other students.
+                                            </p>
+                                            <h4>Optimization</h4>
+                                            <p>
+                                                For the Optimization and Vectorization course, I revisited the project together with an other student.
+                                                We were able to speed the path-tracer up by orders of magnitude, allowing it to render complex objects.
+                                            </p>
+                                        </section>
+                                    </article>
+                                </div>
+                            </div>
+                            <div class="4u 12u(mobile)">
+                                <article class="box educationStyle">
+                                    <a href="#pathFindingFull" title="Hierarchical Path-Finding Theta*" class="htmlColorbox image featured"><img src="images/bachelor-thesis/hpt" alt="" /></a>
+                                    <h3><a href="#pathFindingFull" title="Hierarchical Path-Finding Theta*" class="htmlColorbox">Hierarchical Path-Finding Theta*</a></h3>
+                                    <p>Any-angle path finding algorithm for large maps.</p>
+                                    <footer>C++, QT</footer>
+                                </article>
+                                <div class="projectDescription">
+                                    <article id="pathFindingFull">
+                                        <section>
+                                            <a class="icon featured fa fa-file-pdf-o" href="http://www.cs.ru.nl/bachelorscripties/2013/Linus_van_Elswijk___0710261___Hierarchical_Path-Finding_Theta_star_Combining_HPA_star_and_Theta_star.pdf"></a>
+                                            <p>
+                                                For my bachelor thesis, I created a novel path finding algorithm.
+                                                It combines two existing algorithms:
+                                            <ul>
+                                                <li>Theta*, which produces near optimal any-angle paths</li>
+                                                <li>Hierarchical Path-Finding A*, a fast algorithm for large maps</li>
+                                            </ul>
+                                            The result is an algorithm that has the speed of Hierarchical Path-Finding A*,
+                                            while still producing near optimal any-angle paths.
+                                            </p>
+                                        </section>
+                                    </article>
+                                </div>
+                            </div>
 							<div class="4u 12u(mobile)">
 								<article class="box educationStyle">
 									<a href="#terasologyFull" title="Terasology" class="htmlColorbox image featured"><img src="images/terasology/placeholder.png" alt="" /></a>
@@ -232,13 +279,15 @@
                                     </article>
                                 </div>
 							</div>
-							<div class="4u 12u(mobile)">
-								<article class="box educationStyle">
-									<a href="#destinationSolFull" title="Destination Sol" class="htmlColorbox image featured"><img src="images/destination-sol/placeholder.png" alt="" /></a>
-									<h3><a href="#destinationSolFull" title="Destination Sol" class="htmlColorbox">Destination Sol</a></h3>
+						</div>
+						<div class="row">
+                            <div class="4u 12u(mobile)">
+                                <article class="box educationStyle">
+                                    <a href="#destinationSolFull" title="Destination Sol" class="htmlColorbox image featured"><img src="images/destination-sol/placeholder.png" alt="" /></a>
+                                    <h3><a href="#destinationSolFull" title="Destination Sol" class="htmlColorbox">Destination Sol</a></h3>
                                     <p>Arcade shooter with an open world.</p>
                                     <footer>Java</footer>
-								</article>
+                                </article>
                                 <div class="projectDescription">
                                     <article id="destinationSolFull">
                                         <iframe class="featured" width="560" height="315" src="https://www.youtube.com/embed/lnGvyRHqf8w" frameborder="0" allowfullscreen></iframe>
@@ -255,58 +304,8 @@
                                         </section>
                                     </article>
                                 </div>
-							</div>
-							<div class="4u 12u(mobile)">
-								<article class="box educationStyle">
-									<a href="#pathFindingFull" title="Hierarchical Path-Finding Theta*" class="htmlColorbox image featured"><img src="images/bachelor-thesis/hpt" alt="" /></a>
-									<h3><a href="#pathFindingFull" title="Hierarchical Path-Finding Theta*" class="htmlColorbox">Hierarchical Path-Finding Theta*</a></h3>
-									<p>Any-angle path finding algorithm for large maps.</p>
-                                    <footer>C++, QT</footer>
-								</article>
-                                <div class="projectDescription">
-                                    <article id="pathFindingFull">
-                                        <section>
-                                            <a class="icon featured fa fa-file-pdf-o" href="http://www.cs.ru.nl/bachelorscripties/2013/Linus_van_Elswijk___0710261___Hierarchical_Path-Finding_Theta_star_Combining_HPA_star_and_Theta_star.pdf"></a>
-                                            <p>
-                                                For my bachelor thesis, I created a novel path finding algorithm.
-                                                It combines two existing algorithms:
-                                                <ul>
-                                                    <li>Theta*, which produces near optimal any-angle paths</li>
-                                                    <li>Hierarchical Path-Finding A*, a fast algorithm for large maps</li>
-                                                </ul>
-                                                The result is an algorithm that has the speed of Hierarchical Path-Finding A*,
-                                                while still producing near optimal any-angle paths.
-                                            </p>
-                                        </section>
-                                    </article>
-                                </div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="4u 12u(mobile)">
-								<article class="box educationStyle">
-									<a href="#raytracerFull" title="Path Tracer" class="htmlColorbox image featured"><img src="images/raytracer/suzanne.bmp" alt="" /></a>
-									<h3><a href="#raytracerFull" title="Path Tracer" class="htmlColorbox">Path Tracer</a></h3>
-									<p>Rendering 3D scenes with realistic lighting.</p>
-                                    <footer>C++</footer>
-								</article>
-                                <div class="projectDescription">
-                                    <article id="raytracerFull">
-                                        <section>
-                                            <img class="featured" src="images/raytracer/bunny.bmp"></img>
-                                            <p>
-                                                For the Advanced Graphics course of my master program, I have implemented a Path Tracer together with two other students.
-                                            </p>
-                                            <h4>Optimization</h4>
-                                            <p>
-                                                For the Optimization and Vectorization course, I revisited the project together with an other student.
-                                                We were able to speed the path-tracer up by orders of magnitude, allowing it to render complex objects.
-                                            </p>
-                                        </section>
-                                    </article>
-                                </div>
-							</div>
-							<div class="4u 12u(mobile)">
+                            </div>
+                            <div class="4u 12u(mobile)">
 								<article class="box educationStyle">
 									<a href="#motionExperimentsFull" title="Agent Motion Experiments"  class="htmlColorbox image featured"><img src="images/game-agents/agentProject.png" alt="" /></a>
 									<h3><a href="#motionExperimentsFull" title="Agent Motion Experiments" class="htmlColorbox">Agent Motion Experiments</a></h3>
@@ -351,6 +350,8 @@
                 <footer>
                     <p>
                         <h3>Code Examples</h3>
+                        <a href="https://github.com/LinusVanElswijk/Sign-Type" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Sign Type (C++)</a>
+                        <br />
                         <a href="https://github.com/LinusVanElswijk/CacheSimulator" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Cache Simulator (C++)</a>
                         <br />
                         <a href="https://github.com/LinusVanElswijk/MarkovChains" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Terasology Markov Chain Module (Java)</a>
